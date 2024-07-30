@@ -29,14 +29,14 @@ export const Pages = (props) => {
                 }} 
                 className=
                 'flex p-3 gap-3 text-2xl select-none font-semibold text-white rounded-xl m-3 justify-center items-center duration-700 hover:scale-110' 
-                href={   window.location.href.substring(0,window.location.href.length-1)+`${Math.min(currentPage+1,props.num)}`}><span>NEXT</span><GrNext /></a>
+                href={   window.location.href.substring(0,window.location.href.length-1)+`${Math.min(currentPage+1,props.num)}`}><GrNext /><span>NEXT</span></a>
                 :
                 <div style={{
                     background:"gray"
                 }} 
                 className=
                 'flex p-3 gap-3 text-2xl select-none font-semibold text-white rounded-xl m-3 justify-center items-center' 
-                ><span>NEXT</span><GrNext /></div>
+                ><GrNext /><span>NEXT</span></div>
             }
         </div>
     )
