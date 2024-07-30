@@ -3,7 +3,7 @@ import ProductCatagoriesPage from "../../productpages/catagory";
 import axios from 'axios';
 import {useEffect,useState} from 'react'
 const fetching = () =>{
-    const data = axios.get("https://server-1kfi.vercel.app/product").then((response) =>response.data);
+    const data = axios.get("https://server1-six-navy.vercel.app/product").then((response) =>response.data);
     return data;
 }
 
