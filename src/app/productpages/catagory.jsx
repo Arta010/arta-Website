@@ -10,9 +10,9 @@ import '@/app/components/sideCatagories.css'
 import { HeaderData } from "@/app/data";
 export default function ProductCatagoriesPage(props){
     const ProductsData=props.data;
-    const products = ProductsData.slice(props.current*12,Math.min(props.current*12+12,ProductsData.length))
+    const products = ProductsData.filter(product=>product.catagory === props.params.catagory);
     const ProductsCard=()=>{
-        return products.filter(product=>product.catagory === props.params.catagory).map((item,index)=>(
+        return products.slice(props.current*12,Math.min(props.current*12+12,ProductsData.length)).map((item,index)=>(
             <Product key={index} item={item}/>
         ))
     }
@@ -62,8 +62,7 @@ export default function ProductCatagoriesPage(props){
             <ProductsCard/>
             </div>
         </section>
-        <Pages currentPage={props.current} num={props.num}/>
-        <Footer />
+        <Pages currentPage={props.current} num={parseInt(products.length/13)} />
         <Contacts />
         </>
     )
