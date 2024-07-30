@@ -12,7 +12,7 @@ export default function ProductCatagoriesPage(props){
     const ProductsData=props.data;
     const products = ProductsData.filter(product=>product.catagory === props.params.catagory);
     const ProductsCard=()=>{
-        return products.slice(props.current*12,Math.min(props.current*12+12,ProductsData.length)).map((item,index)=>(
+        return products.slice(props.current*12,Math.min(props.current*12+12,products.length)).map((item,index)=>(
             <Product key={index} item={item}/>
         ))
     }
