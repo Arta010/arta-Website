@@ -16,4 +16,11 @@ export default function Home(props) {
     return (
         <ProductPage data={d} params={props.params}/>
     )
+    else{
+        return <img src="/assets/03-42-11-849_512.webp" width={'200px'} height={'200px'} style={{
+            position: 'absolute',
+            left:'calc(50% - 100px)',
+            top:'calc(50% - 100px)'
+        }} alt="" />
+    }
 }
