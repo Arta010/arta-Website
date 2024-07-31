@@ -26,7 +26,7 @@ export const HeaderData =[{
     sweepers:'sweepers',
     blowers:'blowers',
     trolleys:'trolleys',
-    other:'otherq',
+    other:'other',
     garbage_containers:'garbage containers',
     cleaning_tools:'cleaning tools',
     dryers:'dryers',
