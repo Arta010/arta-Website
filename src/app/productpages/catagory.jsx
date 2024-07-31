@@ -62,7 +62,7 @@ export default function ProductCatagoriesPage(props){
             <ProductsCard/>
             </div>
         </section>
-        <Pages currentPage={props.current} num={parseInt(products.length/13)} />
+        <Pages currentPage={props.current} num={parseInt((products.length-1)/12)} />
         <Contacts />
         </>
     )
