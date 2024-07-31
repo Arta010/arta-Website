@@ -26,11 +26,11 @@ export const Menu = () =>{
         <a href="/products/blowers?currentPage=0" className="menu-item"><span className="flex justify-between">{HeaderData[lang].blowers} <FaArrowRightLong/></span></a>
         <a href="/products/cleaning-trolleys?currentPage=0" className="menu-item"><span className="flex justify-between">{HeaderData[lang].cleaning_trolleys} <FaArrowRightLong/></span></a>
         <a href="/products/house-keeping-trolleys?currentPage=0" className="menu-item"><span className="flex justify-between">{HeaderData[lang].house_keeping_trolleys} <FaArrowRightLong/></span></a>
-        <a href="/products/laundry-trolleys?currentPage=0" className="menu-item"><span className="flex justify-between">{HeaderData[lang].laundry_trolleys} <FaArrowRightLong/></span></a>
         <a href="/products/garbage-containers?currentPage=0" className="menu-item"><span className="flex justify-between">{HeaderData[lang].garbage_containers} <FaArrowRightLong/></span></a>
         <a href="/products/cleaning-tools?currentPage=0" className="menu-item"><span className="flex justify-between">{HeaderData[lang].cleaning_tools} <FaArrowRightLong/></span></a>
         <a href="/products/dryers?currentPage=0" className="menu-item"><span className="flex justify-between">{HeaderData[lang].dryers} <FaArrowRightLong/></span></a>
         <a href="/products/bins?currentPage=0" className="menu-item"><span className="flex justify-between">{HeaderData[lang].bins} <FaArrowRightLong/></span></a>
+        <a href="/products/other?currentPage=0" className="menu-item"><span className="flex justify-between">{HeaderData[lang].other} <FaArrowRightLong/></span></a>
     </div>
     )
 }
