@@ -7,8 +7,8 @@ export const Footer =()=>{
             <div className="flex justify-between gap-4 items-center pb-1 w-full">
             <p className="text-center">2024 Arta. All rights reserved.</p>
             <div className="contact flex gap-3 justify-center items-center">
-                <a className=" p-1 bg-green-500 flex justify-center items-center gap-3 font-bold text-white text-xl rounded-full" target="_blank" href='https://wa.me/+201098676589'><FaWhatsapp size={30} fill="white"/></a>
-                <a className=" p-1 bg-blue-800 flex justify-center items-center gap-3 font-bold text-white text-xl rounded-full" target="_blank" href='https://wa.me/+201098676589'><FaFacebook size={30} fill="white"/></a>
+                <a className=" p-1 bg-green-500 flex justify-center items-center gap-3 font-bold text-white text-xl rounded-full" target="_blank" ><FaWhatsapp size={30} fill="white"/></a>
+                <a className=" p-1 bg-blue-800 flex justify-center items-center gap-3 font-bold text-white text-xl rounded-full" target="_blank" ><FaFacebook size={30} fill="white"/></a>
             </div>
             </div>
         </footer>
